@@ -115,12 +115,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background: #555555;*/
+    background: none;
     z-index: 1;
     margin: 0 50px;
     border-radius: 0px 0px 20px 20px;
     /*border: solid 8px;*/
-    border: thick double ##A6A6A6;
+    border: double 8px #A6A6A6;
   }  
 
 .banner-logo {
