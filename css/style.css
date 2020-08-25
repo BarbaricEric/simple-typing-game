@@ -7,12 +7,13 @@
 }
 
 body {
- /* height: 100vh; */
+ height: 90vh;
  display: flex;
  justify-content: center;
  flex-direction: column;
  align-items: center;
  background: linear-gradient(rgb(47,150,160), rgb(40,62,143));
+ background-attachment: fixed;
  color: #FFFFFF; 
 }
 
