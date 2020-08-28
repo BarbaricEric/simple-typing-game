@@ -26,10 +26,10 @@ function startMatch() {
 }
 
 //Match currentWord to wordInput
-function
+
 
 //Pick & show random word from array or API
-function
+
 
 //Countdwon timer
 function countdown() {
