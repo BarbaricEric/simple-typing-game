@@ -6,6 +6,13 @@ const BROSWERSUPPORT = document.querySelector('.banner-support');
 //Browser Support Banner
 setTimeout(() => {BROSWERSUPPORT.style.display = 'none'}, 5.0*1000);
 
+//Change Level
+const currentLevel = levels.easy;
+
+let time = currentLevel;
+let score = 0;
+let isPlaying;
+
 //Start Game
 function init() {
  //Show number of seconds in UI
