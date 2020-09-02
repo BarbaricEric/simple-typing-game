@@ -40,7 +40,15 @@ function startMatch() {
 
 //Countdwon timer
 function countdown() {
- 
+  //Determine whether there is still time left
+ if(time > 0) {
+  //Decrement
+  time--;
+ } else if(time === 0) {
+  isPlaying = false;
+ }
+ //Show time
+ timeDisplay.innerHTML = time;
 }
 
 //Check status of game
