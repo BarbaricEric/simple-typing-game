@@ -6,6 +6,13 @@ const BROSWERSUPPORT = document.querySelector('.banner-support');
 //Browser Support Banner
 setTimeout(() => {BROSWERSUPPORT.style.display = 'none'}, 5.0*1000);
 
+//Available Levels
+const levels = {
+ easy: 5,
+ medium: 3,
+ hard: 2
+}
+
 //Change Level
 const currentLevel = levels.easy;
 
