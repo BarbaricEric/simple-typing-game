@@ -2,6 +2,12 @@ window.addEventListener('load', init);
 
 //DOM Elements
 const BROSWERSUPPORT = document.querySelector('.banner-support');
+const wordInput = 
+const currentWord = 
+const scoreDisplay =  
+const timeDisplay = 
+const message = 
+const seconds
 
 //Browser Support Banner
 setTimeout(() => {BROSWERSUPPORT.style.display = 'none'}, 5.0*1000);
